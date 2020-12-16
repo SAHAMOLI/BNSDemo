@@ -1,0 +1,10 @@
+Framework:
+
+Parallel execution with two transactions on a single account to check for a deadlock
+Multi browser support- already
+Data accessibility from external sources like csv, excel, xml
+Custom Reporting 
+Test Management tools linking for instance TestRail-exploration
+
+
+Plug n play structure, should not be much effort, migration should not take much time.

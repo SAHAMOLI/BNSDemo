@@ -1,0 +1,13 @@
+{
+    "environments": {
+      
+        "staging": {
+          "blueprint": "https://staging.gravitysupplychain.com",
+          "save_screenshot_path": "./features/Screenshots"
+        }
+
+       
+    }
+  }
+  
+  

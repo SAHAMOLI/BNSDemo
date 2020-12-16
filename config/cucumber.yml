@@ -1,0 +1,6 @@
+default: -c -r ./ "ENVIRONMENT=test" "TEST=ALL" -f pretty -f html -o E:/ABCBS/Test_Automation/GITLocalRepo/DBankDemoTest/Reports<%=Time.now.strftime("%Y%m%d-%H%M%S") %>-report.html
+headless: -c -r ./ --tags @regression "ENVIRONMENT=test" "HEADLESS=ON" -f pretty -f html -o E:/GITLocalRepo/DBankDemoTest/Reports/<%=Time.now.strftime("%Y%m%d-%H%M%S") %>-report.html
+regressionff:  -c -r ./ --tags @regression "ENVIRONMENT=test" "BROWSER=firefox" -f pretty -f html -o E:/GITLocalRepo/DBankDemoTest/Reports/<%=Time.now.strftime("%Y%m%d-%H%M%S") %>-report.html
+regressionie:  -c -r ./ --tags @regression "ENVIRONMENT=test" "BROWSER=ie" -f pretty -f html -o E:/GITLocalRepo/DBankDemoTest/Reports/<%=Time.now.strftime("%Y%m%d-%H%M%S") %>-report.html
+uattest:  -c -r ./ --tags @uat "ENVIRONMENT=test" -f pretty -f html -o E:/GITLocalRepo/DBankDemoTest/Reports/<%=Time.now.strftime("%Y%m%d-%H%M%S") %>-report.html
+highprioritysuite: -c -r ./ --tags @P1 "ENVIRONMENT=test"  -f pretty -f html -o E:/GITLocalRepo/DBankDemoTest/Reports/<%=Time.now.strftime("%Y%m%d-%H%M%S") %>-report.html
